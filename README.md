@@ -14,3 +14,8 @@ Keyword-based Similarity
 ---
 
 In this approach a sequence is divided into small fragments. A segment is sequence of n-characters appearing in the sequence, this is called as an n-gram. The n-grams obtained are counted as features and a vector for each sequence is constructed. Each protein sequence has a corresponding vector associated with it. Using the vector similarity can be computed. For this purpose the concept of Term frequency and Inverse Document Frequency has been used. For n-grams the value of n can be changed and consequently the results change. Each n-gram is a feature and value for that feature is used to compute distance between two protein sequences. Typically, the tf-idf weight is composed by two terms: the ﬁrst computes the normalized Term Frequency (TF), athat is the number of times a word appears in a document, divided by the total number of words in that document. The second term is the Inverse Document Frequency (IDF), computed as the logarithm of the number of the documents in the corpus divided by the number of documents where the speciﬁc term appears.
+
+
+
+A CSV file of sequence data set was obtained from:- 
+https://www.kaggle.com/shahir/protein-data-set 
