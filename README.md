@@ -10,6 +10,11 @@ Sequence Similarity
 
 Protein sequences are a sequence of 20 amino acids. These amino acids are represented using english alphabets therefore the sequences can be seen as sequence of alphabets. To ﬁnd similarity between two Protein sequences we have to adopt a distance metric which can help us to know the measure of similarity between a pair of proteins. Any traditional clustering algorithm can ﬁnd clusters once a similarity matrix or a similarity graph is available. For this purpose we can use four types of methods: Alignment-based similarity, Keyword-based similarity, Kernel-based similarity and Model-based similarity. For this project I have tried to ﬁnd similarity using Alignment of proteins and keywords extraction using n-grams.
 
+Alignment-based similarity
+---
+
+To measure relatedness between two strings similarity is considered an eﬀective measure rather than measuring distances such edit distance. Edit distance is related to the operations of insertion, deletion and substitutions needed to be carried out in order to transform one string to another. On the contrary, alignment refers to the concept that one string is placed against another with insertion of gaps in strings to make the strings equal in length. Two strings can be aligned against each other using space characters which facilitate that length of both the strings is same . In case of protein sequences after aligning the sequences, BLOSUM and PAM Matrices can be used to calculate the score of alignment of proteins. The matches are accounted for a positive value in the score and gaps (the space characters) are penalized. 
+
 Keyword-based Similarity
 ---
 
